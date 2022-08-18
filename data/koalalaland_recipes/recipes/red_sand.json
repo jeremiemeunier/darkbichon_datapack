@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "SSS",
+        "SRS",
+        "SSS"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:sand"
+        },
+        "R": {
+            "item": "minecraft:red_dye"
+        }
+    },
+    "result": {
+        "item": "minecraft:red_sand",
+        "count": 8
+    },
+    "group": "minecraft:red_sand"
+}

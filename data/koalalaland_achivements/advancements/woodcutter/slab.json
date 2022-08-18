@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mangrove_slab"
+        },
+		"title": "Slab",
+		"description": "1 planche pour 2 slabs",
+        "announce_to_chat": false,
+        "frame": "task"
+	},
+    "parent": "koalalaland_achivements:woodcutter/stairs",
+	"criteria": {
+		"woodcutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:stonecutter" ]
+					}
+				]
+			}
+		}
+    },
+    "rewards": {
+        "experience": 0
+    }
+}

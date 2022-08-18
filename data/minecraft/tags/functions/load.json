@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+      "koalalaland_master:init",
+      "koalalaland_recipes:load",
+      "koalalaland_master:finish"
+    ]
+  }

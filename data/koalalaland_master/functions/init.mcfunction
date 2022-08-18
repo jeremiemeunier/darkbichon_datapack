@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[DB][Datapack] "},{"text":"Chargement du datapack Koalalaland","color":"gold"}]

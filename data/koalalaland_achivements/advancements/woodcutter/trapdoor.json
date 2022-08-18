@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mangrove_trapdoor"
+        },
+		"title": "Trapdoor",
+		"description": "1 planche pour 1 trappe",
+        "announce_to_chat": false,
+        "frame": "task"
+	},
+    "parent": "koalalaland_achivements:woodcutter/slab",
+	"criteria": {
+		"woodcutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:stonecutter" ]
+					}
+				]
+			}
+		}
+    },
+    "rewards": {}
+}

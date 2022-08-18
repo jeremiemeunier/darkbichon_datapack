@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:mangrove_fence"
+        },
+		"title": "Fence",
+		"description": "1 planche pour 1 fence",
+        "announce_to_chat": false,
+        "frame": "task"
+	},
+    "parent": "koalalaland_achivements:woodcutter/stripped_wood",
+	"criteria": {
+		"woodcutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:stonecutter" ]
+					}
+				]
+			}
+		}
+    },
+    "rewards": {}
+}

@@ -1,0 +1,1 @@
+tellraw @a [{"text":"[DB][Datapack] "},{"text":"L'ensemble du datapack est chargé","color":"gold"}]

@@ -1,0 +1,25 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:stripped_mangrove_wood"
+        },
+		"title": "Stripped wood",
+		"description": "1 bûche pour 1 stripped wood",
+        "announce_to_chat": false,
+        "frame": "task"
+	},
+    "parent": "koalalaland_achivements:woodcutter/stripped_log",
+	"criteria": {
+		"woodcutter": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [ "minecraft:stonecutter" ]
+					}
+				]
+			}
+		}
+    },
+    "rewards": {}
+}
