@@ -3,6 +3,10 @@
     "values": [
       "koalalaland_master:init",
       "koalalaland_recipes:load",
-      "koalalaland_master:finish"
+      "koalalaland_master:finish",
+      "terracotta_wrench:load",
+      "terracotta_wrench:tick",
+      "redstone_wrench:load",
+      "redstone_wrench:tick"
     ]
   }
