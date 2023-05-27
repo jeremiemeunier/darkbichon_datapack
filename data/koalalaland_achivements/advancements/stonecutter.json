@@ -22,8 +22,6 @@
 		}
     },
     "rewards": {
-        "loot": [
-            "koalalaland_achivements:woodcutter"
-        ]
+        "loot": []
     }
 }
