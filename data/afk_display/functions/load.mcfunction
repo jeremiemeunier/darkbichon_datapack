@@ -7,4 +7,4 @@ scoreboard objectives add afkDis.z2 dummy
 scoreboard objectives add afkDis.checkAFK dummy
 
 team add afkDis.afk "afkplayer"
-team modify afkDis.afk prefix §6[AFK]§6
+team modify afkDis.afk prefix &6[AFK]&6

@@ -2,9 +2,5 @@
   "pack": {
     "pack_format": 15,
     "description": "Custom recipes & advancements for survival server"
-		"supported_formats": {
-			"min_inclusive": 15,
-			"max_inclusive": 41
-		},
   }
 }

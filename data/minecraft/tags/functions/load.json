@@ -3,7 +3,6 @@
   "values": [
     "simplerecipes_master:init",
     "simplerecipes_recipes:load",
-    "simplerecipes_master:finish",
     "terracotta_wrench:load",
     "terracotta_wrench:tick",
     "redstone_wrench:load",
@@ -16,6 +15,7 @@
     "fast_leaf_decay:tick",
     "real_clock:load",
     "real_clock:tick",
-    "real_clock:second"
+    "real_clock:second",
+    "simplerecipes_master:finish"
   ]
 }
