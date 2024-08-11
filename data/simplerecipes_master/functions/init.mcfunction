@@ -1,1 +1,1 @@
-tellraw @a [{"text":"[DB][Datapack] "},{"text":"Chargement du datapack Koalalaland","color":"gold"}]
+tellraw @a [{"text":"[SimpleRecipes] "},{"text":"Chargement du datapack SimpleRecipes","color":"gold"}]
