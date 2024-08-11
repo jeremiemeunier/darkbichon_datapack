@@ -1,8 +1,8 @@
 {
-    "replace": false,
-    "values": [
-      "koalalaland_master:triggers/ko_recipes",
-      "koalalaland_master:triggers/ko_crafting",
-      "koalalaland_master:triggers/ko_woodcutter"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "simplerecipes_master:triggers/ko_recipes",
+    "simplerecipes_master:triggers/ko_crafting",
+    "simplerecipes_master:triggers/ko_woodcutter"
+  ]
+}

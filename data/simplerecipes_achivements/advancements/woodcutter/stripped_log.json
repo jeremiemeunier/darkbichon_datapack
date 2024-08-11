@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stripped_mangrove_log"
+    },
+    "title": "Stripped log",
+    "description": "1 bûche pour 1 stripped log",
+    "announce_to_chat": false,
+    "frame": "task"
+  },
+  "parent": "koalalaland_achivements:woodcutter/trapdoor",
+  "criteria": {
+    "woodcutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:stonecutter"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

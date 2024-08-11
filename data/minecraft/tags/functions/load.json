@@ -1,12 +1,21 @@
 {
-    "replace": false,
-    "values": [
-      "koalalaland_master:init",
-      "koalalaland_recipes:load",
-      "koalalaland_master:finish",
-      "terracotta_wrench:load",
-      "terracotta_wrench:tick",
-      "redstone_wrench:load",
-      "redstone_wrench:tick"
-    ]
-  }
+  "replace": false,
+  "values": [
+    "simplerecipes_master:init",
+    "simplerecipes_recipes:load",
+    "simplerecipes_master:finish",
+    "terracotta_wrench:load",
+    "terracotta_wrench:tick",
+    "redstone_wrench:load",
+    "redstone_wrench:tick",
+    "afk_display:load",
+    "afk_display:second",
+    "cauldron_concrete:load",
+    "cauldron_concrete:check_for_items_in_filled_cauldrons",
+    "fast_leaf_decay:load",
+    "fast_leaf_decay:tick",
+    "real_clock:load",
+    "real_clock:tick",
+    "real_clock:second"
+  ]
+}

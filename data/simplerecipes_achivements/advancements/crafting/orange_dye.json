@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot"
+    },
+    "title": "Colorant Orange",
+    "description": "Du colorant orange à partir des carrottes !",
+    "announce_to_chat": false,
+    "frame": "task"
+  },
+  "parent": "koalalaland_achivements:crafting/saddle",
+  "criteria": {
+    "woodcutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:crafting_table"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

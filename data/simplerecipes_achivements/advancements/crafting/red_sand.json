@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:red_sand"
+    },
+    "title": "Red sand",
+    "description": "Un peu de sable un peu de colorant rouge et paf !",
+    "announce_to_chat": false,
+    "frame": "task"
+  },
+  "parent": "koalalaland_achivements:crafting/orange_dye",
+  "criteria": {
+    "woodcutter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:crafting_table"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}
